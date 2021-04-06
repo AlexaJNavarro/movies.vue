@@ -1,5 +1,16 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <div>{{mensaje}}</div>
 </template>
+
+<script>
+
+export default {
+  name:'About',
+  data(){
+    return{
+      mensaje:'hola mi amorcito'
+    }
+  }  
+}
+</script>
+

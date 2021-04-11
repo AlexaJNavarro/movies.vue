@@ -6,6 +6,7 @@ import Movies from '../views/Movies'
 import Movie from '../views/Movie'
 import NewMovie from '../views/NewMovie'
 
+
 Vue.use(VueRouter)
 
 const routes = [
